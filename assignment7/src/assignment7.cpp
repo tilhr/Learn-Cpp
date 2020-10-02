@@ -6,17 +6,13 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include<iostream>
-#include<cstring>
-#include<string>
-#include<fstream>
+#include<bits/stdc++.h>
 
 
 using namespace std;
 
 // employee class
 class Employee{
-   private:
        int ssn;// ssn number
        string lname;// last name
        string fname;// First name
@@ -39,7 +35,7 @@ class Employee{
        }
 
        // setter methods
-       void setssn(int a){ssn=a;}
+       void setssn(int a);
        void setlname(string a){lname=a;}
        void setfname(string a){fname=a;}
        void setNext(Employee *a){next=a;}
@@ -58,6 +54,7 @@ class Employee{
 
 };
 
+void Employee :: setssn(int a){ssn=a;}
 
 // hash list of employee
 class HashList{
