@@ -6,10 +6,7 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include<iostream>
-#include<fstream>
-#include<vector>
-#include<queue>
+3include<bits/stdc++.h>
 
 using namespace std;
 
